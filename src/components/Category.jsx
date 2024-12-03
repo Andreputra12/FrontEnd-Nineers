@@ -4,7 +4,7 @@ const categories = [
   {
     id: 1,
     title: 'Web Development',
-    href: 'detailweb.html',
+    href: '/WebDevelopment',
     bgColor: '#0F3DDE',
     imageSrc: 'src/assets/Web Development/image1.png',
     altText: 'Web Development',
@@ -12,7 +12,7 @@ const categories = [
   {
     id: 2,
     title: 'Software Development',
-    href: 'detailsoftware.html',
+    href: '/SoftwareDevelopment',
     bgColor: '#3CA4B4',
     imageSrc: 'src/assets/Software Developments/image2.jpg',
     altText: 'Software Development',
@@ -20,7 +20,7 @@ const categories = [
   {
     id: 3,
     title: 'Android Development',
-    href: 'detailandroid.html',
+    href: '/AndroidDevelopment',
     bgColor: '#1E3652',
     imageSrc: 'src/assets/Android Development/image2.png',
     altText: 'Android Development',
@@ -28,7 +28,7 @@ const categories = [
   {
     id: 4,
     title: 'Graphic Design',
-    href: 'detailgraphic.html',
+    href: '/GraphicDesign',
     bgColor: '#664B31',
     imageSrc: 'src/assets/Graphic Design/image1.jpg',
     altText: 'Graphic Design',

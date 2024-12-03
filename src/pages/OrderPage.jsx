@@ -165,19 +165,21 @@ const workerData = [
 ];
 
 const OrderPage = () => {
-  const { workerId } = useParams();  // Mengambil ID pekerja dari URL
+  const { workerId } = useParams(); // Mengambil ID pekerja dari URL
   const [worker, setWorker] = useState(null);
 
   useEffect(() => {
     // Menemukan data pekerja berdasarkan ID yang dipilih
-    const selectedWorker = workerData.find(worker => worker.id === parseInt(workerId));
+    const selectedWorker = workerData.find(
+      (worker) => worker.id === parseInt(workerId)
+    );
     setWorker(selectedWorker);
-  }, [workerId]);  // Menjalankan efek setiap kali workerId berubah
+  }, [workerId]); // Menjalankan efek setiap kali workerId berubah
 
   if (!worker) {
-    return <p>Worker not found</p>;  // Jika pekerja tidak ditemukan
+    return <p>Worker not found</p>; // Jika pekerja tidak ditemukan
   }
-
+  
   return (
     <div className="max-w-6xl mx-auto p-6">
       {/* Header */}

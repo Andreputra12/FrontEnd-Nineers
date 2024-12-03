@@ -7,6 +7,10 @@ import RegisterPage from './pages/RegisterPage';
 import OrderPage from './pages/OrderPage';
 import SearchPage from './pages/SearchPage';
 import EditPage from './pages/EditPage';
+import WebDevelopment from './pages/WebDevelopment';
+import SoftwareDevelopment from './pages/SoftwareDevelopment';
+import AndroidDevelopment from './pages/AndroidDevelopment';
+import GraphicDesign from './pages/GraphicDesign';
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
         <Route path="/order/:workerId" element={<OrderPage />} /> 
         <Route path="/search" element={<SearchPage />} /> 
         <Route path="/edit" element={<EditPage />} /> 
+        <Route path="/WebDevelopment" element={<WebDevelopment />} /> 
+        <Route path="/SoftwareDevelopment" element={<SoftwareDevelopment />} /> 
+        <Route path="/AndroidDevelopment" element={<AndroidDevelopment />} /> 
+        <Route path="/GraphicDesign" element={<GraphicDesign />} /> 
       </Routes>
     </Router>
   );

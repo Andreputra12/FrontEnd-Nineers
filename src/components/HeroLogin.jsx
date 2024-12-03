@@ -7,7 +7,7 @@ const HeroLogin = () => {
         <div className="w-full lg:w-1/2">
           <h1 className="text-4xl font-bold mb-4">Programming & Tech</h1>
           <p className="text-lg mb-6">
-            CourseID akan mengajarkan Anda sesuai skill yang Anda inginkan
+            Nineers akan mengajarkan Anda sesuai skill yang Anda inginkan
             secara lengkap dan praktis. Dengan metode mudah dipahami dan
             latihan yang efektif.
           </p>

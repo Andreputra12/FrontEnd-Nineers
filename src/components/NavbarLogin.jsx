@@ -187,7 +187,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-                <div className="flex justify-center gap-x-40 border-b border-b-black-300 p-3 shadow-md">
+                {/* <div className="flex justify-center gap-x-40 border-b border-b-black-300 p-3 shadow-md">
                   <div className="group relative">
                     <a href="detailweb.html" className="hover:text-blue-500">
                       Web Development
@@ -212,7 +212,7 @@ const Home = () => {
                     </a>
                     <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-blue-500 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
                   </div>
-                </div>
+                </div> */}
       </header>
     </div>
   );

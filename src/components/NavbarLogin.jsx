@@ -1,4 +1,5 @@
 import React from 'react';
+import Search from "../components/search"
 
 const Home = () => {
   return (
@@ -118,21 +119,10 @@ const Home = () => {
 
               <a href="#" className="font-bold text-2xl">Nineers</a>
             </div>
-
-            <nav className="flex">
-              <input
-                type="text"
-                id="search-input"
-                placeholder="Type your search..."
-                className="block w-full px-4 py-2 rounded-l-md"
-              />
-              <button
-                id="search-button"
-                className="bg-blue-500 text-white px-4 py-2 rounded-r-md"
-              >
-                Search
-              </button>
-            </nav>
+            {/* search bar */}
+            <div className="search-bar">
+              <Search />
+            </div>
           </div>
 
           <div className="relative flex items-center">

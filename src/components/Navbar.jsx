@@ -119,21 +119,6 @@ const LandingPage = () => {
           Nineers
         </a>
       </div>
-
-      <nav className="flex">
-        <input
-          type="text"
-          id="search-input"
-          placeholder="Type your search..."
-          className="block w-full px-4 py-2 rounded-l-md"
-        />
-        <button
-          id="search-button"
-          className="bg-blue-500 text-white px-4 py-2 rounded-r-md"
-        >
-          Search
-        </button>
-      </nav>
     </div>
 
     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
